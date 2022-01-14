@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="kevserodbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerSurname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Emplooye">
+    <Key>
+      <PropertyRef Name="EmplooyeId" />
+    </Key>
+    <Property Name="EmplooyeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="EmplooyeTC" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="EmplooyeName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="EmplooyeSurname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateOfBirth" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GenderId" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="StartDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FinishDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="GenderId" />
+    </Key>
+    <Property Name="GenderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GenderName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="GenreId" />
+    </Key>
+    <Property Name="GenreId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GenreName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Movies" Relationship="Self.FK_Movies_GenderId" FromRole="Genres" ToRole="Movies" />
+  </EntityType>
+  <EntityType Name="Movy">
+    <Key>
+      <PropertyRef Name="MovieId" />
+    </Key>
+    <Property Name="MovieId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MovieName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DirectorName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GenreId" Type="Int32" />
+    <Property Name="VisionStartD" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="VisionFinishD" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Genre" Relationship="Self.FK_Movies_GenderId" FromRole="Movies" ToRole="Genres" />
+  </EntityType>
+  <EntityType Name="TicketSale">
+    <Key>
+      <PropertyRef Name="SaleId" />
+    </Key>
+    <Property Name="SaleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerPhone" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TotalTicket" Type="Int32" />
+    <Property Name="MovieId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DateOfPurchase" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Movies_GenderId">
+    <End Role="Genres" Type="Self.Genre" Multiplicity="0..1" />
+    <End Role="Movies" Type="Self.Movy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genres">
+        <PropertyRef Name="GenreId" />
+      </Principal>
+      <Dependent Role="Movies">
+        <PropertyRef Name="GenreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CinemaTicketEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Emplooyes" EntityType="Self.Emplooye" />
+    <EntitySet Name="Genders" EntityType="Self.Gender" />
+    <EntitySet Name="Genres" EntityType="Self.Genre" />
+    <EntitySet Name="Movies" EntityType="Self.Movy" />
+    <EntitySet Name="TicketSales" EntityType="Self.TicketSale" />
+    <AssociationSet Name="FK_Movies_GenderId" Association="Self.FK_Movies_GenderId">
+      <End Role="Genres" EntitySet="Genres" />
+      <End Role="Movies" EntitySet="Movies" />
+    </AssociationSet>
+    <FunctionImport Name="SP_GetMovieByGender" ReturnType="Collection(kevserodbModel.SP_GetMovieByGender_Result)">
+      <Parameter Name="GenreName" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="SP_GetMovieByGender_Result">
+    <Property Type="Int32" Name="MovieId" Nullable="false" />
+    <Property Type="String" Name="MovieName" Nullable="true" />
+    <Property Type="String" Name="DirectorName" Nullable="true" />
+    <Property Type="String" Name="VisionStartD" Nullable="true" />
+    <Property Type="String" Name="VisionFinishD" Nullable="true" />
+  </ComplexType>
+</Schema>

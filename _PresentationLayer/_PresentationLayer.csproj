@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39389775-3540-4580-82C1-CF2775CB4BDA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_PresentationLayer</RootNamespace>
+    <AssemblyName>_PresentationLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerAddForm.Designer.cs">
+      <DependentUpon>CustomerAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerListForm.Designer.cs">
+      <DependentUpon>CustomerListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeAddForm.Designer.cs">
+      <DependentUpon>EmployeeAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeListForm.Designer.cs">
+      <DependentUpon>EmployeeListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Modeller.cs" />
+    <Compile Include="MovieAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieAddForm.Designer.cs">
+      <DependentUpon>MovieAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieListForm.Designer.cs">
+      <DependentUpon>MovieListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Service References\BiletSatisServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\CinsiyetServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\FilmServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MusteriServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\PersonelServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\TurServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TicketSalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketSalesForm.Designer.cs">
+      <DependentUpon>TicketSalesForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomerAddForm.resx">
+      <DependentUpon>CustomerAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerListForm.resx">
+      <DependentUpon>CustomerListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeAddForm.resx">
+      <DependentUpon>EmployeeAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeListForm.resx">
+      <DependentUpon>EmployeeListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieAddForm.resx">
+      <DependentUpon>MovieAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieListForm.resx">
+      <DependentUpon>MovieListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketSalesForm.resx">
+      <DependentUpon>TicketSalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Service References\BiletSatisServiceReference\service.wsdl" />
+    <None Include="Service References\BiletSatisServiceReference\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BiletSatisServiceReference\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BiletSatisServiceReference\_BusinessLayer.Model.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BiletSatisServiceReference\_DataLayer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CinsiyetServiceReference\service.wsdl" />
+    <None Include="Service References\CinsiyetServiceReference\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CinsiyetServiceReference\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CinsiyetServiceReference\_DataLayer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FilmServiceReference\service.wsdl" />
+    <None Include="Service References\FilmServiceReference\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FilmServiceReference\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FilmServiceReference\_BusinessLayer.Model.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FilmServiceReference\_DataLayer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MusteriServiceReference\service.wsdl" />
+    <None Include="Service References\MusteriServiceReference\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MusteriServiceReference\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MusteriServiceReference\_BusinessLayer.Model.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MusteriServiceReference\_BusinessLayer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MusteriServiceReference\_DataLayer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonelServiceReference\service.wsdl" />
+    <None Include="Service References\PersonelServiceReference\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonelServiceReference\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonelServiceReference\_BusinessLayer.Model.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonelServiceReference\_DataLayer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TurServiceReference\service.wsdl" />
+    <None Include="Service References\TurServiceReference\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TurServiceReference\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TurServiceReference\_DataLayer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_BusinessLayer\_BusinessLayer.csproj">
+      <Project>{71941d90-4450-4609-af9b-6fa286947f5b}</Project>
+      <Name>_BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\_DataLayer\_DataLayer.csproj">
+      <Project>{7edf4d1a-af72-4cb3-9aa8-5330214e9ebe}</Project>
+      <Name>_DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\BiletSatisServiceReference\" />
+    <WCFMetadataStorage Include="Service References\CinsiyetServiceReference\" />
+    <WCFMetadataStorage Include="Service References\FilmServiceReference\" />
+    <WCFMetadataStorage Include="Service References\MusteriServiceReference\" />
+    <WCFMetadataStorage Include="Service References\PersonelServiceReference\" />
+    <WCFMetadataStorage Include="Service References\TurServiceReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PersonelServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PersonelServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PersonelServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CinsiyetServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BiletSatisServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BiletSatisServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BiletSatisServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MusteriServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MusteriServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MusteriServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FilmServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FilmServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FilmServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TurServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TurServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TurServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CinsiyetServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CinsiyetServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

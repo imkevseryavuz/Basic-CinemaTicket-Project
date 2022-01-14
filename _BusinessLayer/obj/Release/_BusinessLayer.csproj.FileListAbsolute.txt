@@ -1,0 +1,48 @@
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\bin\Release\_BusinessLayer.dll.config
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\bin\Release\_BusinessLayer.dll
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\bin\Release\_BusinessLayer.pdb
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\bin\Release\EntityFramework.dll
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\bin\Release\_DataLayer.dll
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\bin\Release\_DataLayer.pdb
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\bin\Release\EntityFramework.xml
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\obj\Release\_BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\obj\Release\_BusinessLayer.dll
+C:\Users\ilker\Desktop\_FinalProje\_BusinessLayer\obj\Release\_BusinessLayer.pdb
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\obj\Release\_BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\obj\Release\_BusinessLayer.dll
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\obj\Release\_BusinessLayer.pdb
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\bin\Release\_BusinessLayer.dll.config
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\bin\Release\_BusinessLayer.dll
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\bin\Release\_BusinessLayer.pdb
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.dll
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\bin\Release\_DataLayer.dll
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\bin\Release\_DataLayer.pdb
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.xml
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\_BusinessLayer.dll.config
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\_BusinessLayer.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\_BusinessLayer.pdb
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\_DataLayer.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\_DataLayer.pdb
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.xml
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\obj\Release\_BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\obj\Release\_BusinessLayer.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_BusinessLayer\obj\Release\_BusinessLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\_BusinessLayer.dll.config
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\_BusinessLayer.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\_BusinessLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\_DataLayer.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\_DataLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.xml
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\obj\Release\_BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\obj\Release\_BusinessLayer.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_BusinessLayer\obj\Release\_BusinessLayer.pdb

@@ -1,0 +1,87 @@
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.exe.config
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.exe
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.pdb
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.Form1.resources
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.Menu.resources
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.Properties.Resources.resources
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.csproj.GenerateResource.Cache
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.exe
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.pdb
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.CustomerListForm.resources
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.MovieAddForm.resources
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.MovieListForm.resources
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.TicketSalesForm.resources
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.CustomerAddForm.resources
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.exe.config
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.exe
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.pdb
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.exe
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.pdb
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.CustomerAddForm.resources
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.CustomerListForm.resources
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.Form1.resources
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.Menu.resources
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.MovieAddForm.resources
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.MovieListForm.resources
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.TicketSalesForm.resources
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.csproj.GenerateResource.Cache
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_BusinessLayer.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\EntityFramework.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_BusinessLayer.pdb
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_DataLayer.pdb
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\EntityFramework.xml
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.exe.config
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.exe
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_BusinessLayer.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\EntityFramework.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_BusinessLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\_DataLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\bin\Debug\EntityFramework.xml
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.CustomerAddForm.resources
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.CustomerListForm.resources
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.Form1.resources
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.Menu.resources
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.MovieAddForm.resources
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.MovieListForm.resources
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.TicketSalesForm.resources
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.csproj.GenerateResource.Cache
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.exe
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.EmployeeAddForm.resources
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.EmployeeListForm.resources
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.exe.config
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.exe
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.exe
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\_PresentationLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\_BusinessLayer.dll
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\EntityFramework.dll
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\_BusinessLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\_DataLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\bin\Debug\EntityFramework.xml
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.CustomerAddForm.resources
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.CustomerListForm.resources
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.EmployeeAddForm.resources
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.EmployeeListForm.resources
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.Form1.resources
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.Menu.resources
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.MovieAddForm.resources
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.MovieListForm.resources
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.TicketSalesForm.resources
+C:\Users\Kevser\Desktop\Kevser Yavuz Dağıtık Final\_FinalProjeKevser\_PresentationLayer\obj\Debug\_PresentationLayer.csproj.GenerateResource.Cache

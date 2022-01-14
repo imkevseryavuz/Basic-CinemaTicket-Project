@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Film" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/_DataLayer" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IFilm_MovieAdd_InputMessage">
+    <wsdl:part name="parameters" element="tns:MovieAdd" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_MovieAdd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MovieAddResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_MovieDelete_InputMessage">
+    <wsdl:part name="parameters" element="tns:MovieDelete" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_MovieDelete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MovieDeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_MovieUpdate_InputMessage">
+    <wsdl:part name="parameters" element="tns:MovieUpdate" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_MovieUpdate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MovieUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_filmbul_InputMessage">
+    <wsdl:part name="parameters" element="tns:filmbul" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_filmbul_OutputMessage">
+    <wsdl:part name="parameters" element="tns:filmbulResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_MovieAsJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:MovieAsJson" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_MovieAsJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MovieAsJsonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_First_InputMessage">
+    <wsdl:part name="parameters" element="tns:First" />
+  </wsdl:message>
+  <wsdl:message name="IFilm_First_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FirstResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IFilm">
+    <wsdl:operation name="MovieAdd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFilm/MovieAdd" message="tns:IFilm_MovieAdd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFilm/MovieAddResponse" message="tns:IFilm_MovieAdd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MovieDelete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFilm/MovieDelete" message="tns:IFilm_MovieDelete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFilm/MovieDeleteResponse" message="tns:IFilm_MovieDelete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MovieUpdate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFilm/MovieUpdate" message="tns:IFilm_MovieUpdate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFilm/MovieUpdateResponse" message="tns:IFilm_MovieUpdate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="filmbul">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFilm/filmbul" message="tns:IFilm_filmbul_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFilm/filmbulResponse" message="tns:IFilm_filmbul_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MovieAsJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFilm/MovieAsJson" message="tns:IFilm_MovieAsJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFilm/MovieAsJsonResponse" message="tns:IFilm_MovieAsJson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="First">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFilm/First" message="tns:IFilm_First_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFilm/FirstResponse" message="tns:IFilm_First_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="Film" />
+</wsdl:definitions>

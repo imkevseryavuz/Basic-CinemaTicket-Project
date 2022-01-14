@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/_DataLayer" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" />
+  <xs:element name="EmplooyesAdd">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/_DataLayer" minOccurs="0" name="emplooye" nillable="true" type="q1:Emplooye" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EmplooyesAddResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" minOccurs="0" name="EmplooyesAddResult" nillable="true" type="q2:Status" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OgretmenSil">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/_DataLayer" minOccurs="0" name="emplooye" nillable="true" type="q3:Emplooye" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OgretmenSilResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" minOccurs="0" name="OgretmenSilResult" nillable="true" type="q4:Status" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateExam">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/_DataLayer" minOccurs="0" name="emplooye" nillable="true" type="q5:Emplooye" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateExamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" minOccurs="0" name="UpdateExamResult" nillable="true" type="q6:Status" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Login">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/_DataLayer" minOccurs="0" name="emplooyee" nillable="true" type="q7:Emplooye" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" minOccurs="0" name="LoginResult" nillable="true" type="q8:Status" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EmplooyeAsJson">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EmplooyeAsJsonResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/_DataLayer" minOccurs="0" name="EmplooyeAsJsonResult" nillable="true" type="q9:ArrayOfEmplooye" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

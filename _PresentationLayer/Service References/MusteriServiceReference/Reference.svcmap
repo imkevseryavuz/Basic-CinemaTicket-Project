@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d5fb0e1d-6176-4eb3-994b-e96e5780866a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://kevser.etikbiri.net/MusteriService.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="7365f6be-d079-43e1-ae12-376ce0125c97" SourceId="1" SourceUrl="http://kevser.etikbiri.net/MusteriService.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="1cbb386b-018a-41a5-a47d-99a92a3baf38" SourceId="1" SourceUrl="http://kevser.etikbiri.net/MusteriService.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="3639c9a6-9981-4cd3-957b-a3ad1979a85a" SourceId="1" SourceUrl="http://kevser.etikbiri.net/MusteriService.svc/mex" />
+    <MetadataFile FileName="_DataLayer.xsd" MetadataType="Schema" ID="83cd0550-697d-481c-a0b3-e4933755cee5" SourceId="1" SourceUrl="http://kevser.etikbiri.net/MusteriService.svc/mex" />
+    <MetadataFile FileName="_BusinessLayer.Model.xsd" MetadataType="Schema" ID="1177d484-f3f4-4b0d-928b-914258d79695" SourceId="1" SourceUrl="http://kevser.etikbiri.net/MusteriService.svc/mex" />
+    <MetadataFile FileName="_BusinessLayer.xsd" MetadataType="Schema" ID="da220c59-18a2-450c-bf81-e60889e5a709" SourceId="1" SourceUrl="http://kevser.etikbiri.net/MusteriService.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

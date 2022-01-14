@@ -1,0 +1,50 @@
+C:\Users\Kevser\Desktop\_FinalProje\_DataLayer\bin\Debug\_DataLayer.dll.config
+C:\Users\Kevser\Desktop\_FinalProje\_DataLayer\bin\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\_FinalProje\_DataLayer\bin\Debug\_DataLayer.pdb
+C:\Users\Kevser\Desktop\_FinalProje\_DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\Kevser\Desktop\_FinalProje\_DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kevser\Desktop\_FinalProje\_DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\Kevser\Desktop\_FinalProje\_DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kevser\Desktop\_FinalProje\_DataLayer\obj\Debug\_DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\_FinalProje\_DataLayer\obj\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\_FinalProje\_DataLayer\obj\Debug\_DataLayer.pdb
+C:\Users\ilker\Desktop\_FinalProje\_DataLayer\bin\Debug\_DataLayer.dll.config
+C:\Users\ilker\Desktop\_FinalProje\_DataLayer\bin\Debug\_DataLayer.dll
+C:\Users\ilker\Desktop\_FinalProje\_DataLayer\bin\Debug\_DataLayer.pdb
+C:\Users\ilker\Desktop\_FinalProje\_DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\ilker\Desktop\_FinalProje\_DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ilker\Desktop\_FinalProje\_DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\ilker\Desktop\_FinalProje\_DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ilker\Desktop\_FinalProje\_DataLayer\obj\Debug\_DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\ilker\Desktop\_FinalProje\_DataLayer\obj\Debug\_DataLayer.dll
+C:\Users\ilker\Desktop\_FinalProje\_DataLayer\obj\Debug\_DataLayer.pdb
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_DataLayer\bin\Debug\_DataLayer.dll.config
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_DataLayer\bin\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_DataLayer\bin\Debug\_DataLayer.pdb
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_DataLayer\obj\Debug\_DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_DataLayer\obj\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\_FinalProjeKevser\_DataLayer\obj\Debug\_DataLayer.pdb
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_DataLayer\bin\Debug\_DataLayer.dll.config
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_DataLayer\bin\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_DataLayer\bin\Debug\_DataLayer.pdb
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_DataLayer\obj\Debug\_DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_DataLayer\obj\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\Emre deneme\_FinalProjeKevser\_DataLayer\obj\Debug\_DataLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_DataLayer\bin\Debug\_DataLayer.dll.config
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_DataLayer\bin\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_DataLayer\bin\Debug\_DataLayer.pdb
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_DataLayer\obj\Debug\_DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_DataLayer\obj\Debug\_DataLayer.dll
+C:\Users\Kevser\Desktop\Kevser Deneme\_FinalProjeKevser\_DataLayer\obj\Debug\_DataLayer.pdb

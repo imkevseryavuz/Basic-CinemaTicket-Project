@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Status">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="success" type="xs:boolean" />
+      <xs:element minOccurs="0" name="reason" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Status" nillable="true" type="tns:Status" />
+  <xs:complexType name="ArrayOfMovieRestList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MovieRestList" nillable="true" type="tns:MovieRestList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMovieRestList" nillable="true" type="tns:ArrayOfMovieRestList" />
+  <xs:complexType name="MovieRestList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DirectorName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GenreName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Moveid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MovieName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisionFinishD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisionStartD" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MovieRestList" nillable="true" type="tns:MovieRestList" />
+</xs:schema>

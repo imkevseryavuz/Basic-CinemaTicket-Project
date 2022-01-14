@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="84a99644-439b-4db1-b3cf-1b714c2bad2a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://kevser.etikbiri.net/PersonelService.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="1e6e8b99-77c3-44f7-bad2-fdb9f3426af2" SourceId="1" SourceUrl="http://kevser.etikbiri.net/PersonelService.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="f4cf8703-6444-46de-a5ce-de946aae1a19" SourceId="1" SourceUrl="http://kevser.etikbiri.net/PersonelService.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="0414ff46-fe35-43a2-9048-755e8a4735ba" SourceId="1" SourceUrl="http://kevser.etikbiri.net/PersonelService.svc/mex" />
+    <MetadataFile FileName="_DataLayer.xsd" MetadataType="Schema" ID="348babda-6939-4644-9160-8ff0c9d7274c" SourceId="1" SourceUrl="http://kevser.etikbiri.net/PersonelService.svc/mex" />
+    <MetadataFile FileName="_BusinessLayer.Model.xsd" MetadataType="Schema" ID="5353442f-4f2b-4596-8f61-806bf89fe36a" SourceId="1" SourceUrl="http://kevser.etikbiri.net/PersonelService.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

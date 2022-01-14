@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="kevserodbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="10" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CustomerSurname" Type="nvarchar" MaxLength="100" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="11" />
+    <Property Name="Address" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Emplooyes">
+    <Key>
+      <PropertyRef Name="EmplooyeId" />
+    </Key>
+    <Property Name="EmplooyeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmplooyeTC" Type="nvarchar" MaxLength="11" />
+    <Property Name="EmplooyeName" Type="nvarchar(max)" />
+    <Property Name="EmplooyeSurname" Type="nvarchar(max)" />
+    <Property Name="DateOfBirth" Type="nvarchar(max)" />
+    <Property Name="GenderId" Type="nvarchar" MaxLength="10" />
+    <Property Name="StartDate" Type="nvarchar(max)" />
+    <Property Name="FinishDate" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Genders">
+    <Key>
+      <PropertyRef Name="GenderId" />
+    </Key>
+    <Property Name="GenderId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GenderName" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Genres">
+    <Key>
+      <PropertyRef Name="GenreId" />
+    </Key>
+    <Property Name="GenreId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GenreName" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Movies">
+    <Key>
+      <PropertyRef Name="MovieId" />
+    </Key>
+    <Property Name="MovieId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MovieName" Type="nvarchar(max)" />
+    <Property Name="DirectorName" Type="nvarchar(max)" />
+    <Property Name="GenreId" Type="int" />
+    <Property Name="VisionStartD" Type="nvarchar(max)" />
+    <Property Name="VisionFinishD" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="TicketSales">
+    <Key>
+      <PropertyRef Name="SaleId" />
+    </Key>
+    <Property Name="SaleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerPhone" Type="nvarchar" MaxLength="100" />
+    <Property Name="TotalTicket" Type="int" />
+    <Property Name="MovieId" Type="nvarchar" MaxLength="100" />
+    <Property Name="DateOfPurchase" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_Movies_GenderId">
+    <End Role="Genres" Type="Self.Genres" Multiplicity="0..1" />
+    <End Role="Movies" Type="Self.Movies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genres">
+        <PropertyRef Name="GenreId" />
+      </Principal>
+      <Dependent Role="Movies">
+        <PropertyRef Name="GenreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="SP_GetMovieByGender" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="GenreName" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <EntityContainer Name="kevserodbModelStoreContainer">
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Emplooyes" EntityType="Self.Emplooyes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Genders" EntityType="Self.Genders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Genres" EntityType="Self.Genres" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Movies" EntityType="Self.Movies" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TicketSales" EntityType="Self.TicketSales" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Movies_GenderId" Association="Self.FK_Movies_GenderId">
+      <End Role="Genres" EntitySet="Genres" />
+      <End Role="Movies" EntitySet="Movies" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

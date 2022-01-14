@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/_DataLayer" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" />
+  <xs:element name="KategoriEkle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="customerPhone" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalTicket" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="movieId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateofPurchase" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KategoriEkleResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TicketSaleDelete">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/_DataLayer" minOccurs="0" name="ticketsale" nillable="true" type="q1:TicketSale" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TicketSaleDeleteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" minOccurs="0" name="TicketSaleDeleteResult" nillable="true" type="q2:Status" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TicketSaleUpdate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/_DataLayer" minOccurs="0" name="ticketsale" nillable="true" type="q3:TicketSale" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TicketSaleUpdateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/_BusinessLayer.Model" minOccurs="0" name="TicketSaleUpdateResult" nillable="true" type="q4:Status" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TicketAsJson">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TicketAsJsonResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/_DataLayer" minOccurs="0" name="TicketAsJsonResult" nillable="true" type="q5:ArrayOfTicketSale" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

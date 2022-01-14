@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f4494b3f-e97c-44f8-9386-f6dd6a5ad62f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://kevser.etikbiri.net/BiletSatisService.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="0657ba96-f132-4b84-93d1-e167a63b8b16" SourceId="1" SourceUrl="http://kevser.etikbiri.net/BiletSatisService.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="92c80e1b-da27-45c9-976e-d5366479db92" SourceId="1" SourceUrl="http://kevser.etikbiri.net/BiletSatisService.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="c66ffae0-276e-4fa5-bb5c-7a4cee8c0f22" SourceId="1" SourceUrl="http://kevser.etikbiri.net/BiletSatisService.svc/mex" />
+    <MetadataFile FileName="_DataLayer.xsd" MetadataType="Schema" ID="bdec86cd-ad6e-465c-9896-dbe6e8669d25" SourceId="1" SourceUrl="http://kevser.etikbiri.net/BiletSatisService.svc/mex" />
+    <MetadataFile FileName="_BusinessLayer.Model.xsd" MetadataType="Schema" ID="87f65e2b-0f6c-4a8a-9175-e0698f46acb9" SourceId="1" SourceUrl="http://kevser.etikbiri.net/BiletSatisService.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
